@@ -10,40 +10,51 @@ body{
     width: 100%;
     height: 913px;
     background-color: black;
+    border: 1px solid transparent;
 }
-.header-box-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffffff;
+.header-box-top-text{
     text-align: center;
-    letter-spacing: 0.03em;
-    padding-top: 111px;
+    margin: 0 auto;
+    margin-top: 111px;
+    width: 933px;
+    min-height: 166px;
 }
 .header-text-top{
-    width: 933px;
     font-size: 140px;
     line-height: 170.66px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.header-box-bottom-text{
+    width: 580px;
+    min-height: 55px;
+    margin: 0 auto;
+    margin-top: 1px;
+    text-align: center;
+    position: relative;
 }
 .header-text-bottom{
-    width: 580px;
     font-size: 36px;
     line-height: 43.88px;
     font-weight: 500;
-    padding-top: 1px;
+    color:#ffffff;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 .header-img{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 395px;
+    z-index: 1;
 }
-.header-banner{
-    margin: 0 auto;
+.img-iphones{
     width: 1299px;
     height: 743px;
-    padding-top: 62px;
+    margin: 0 auto;
 }
+
+
 .raleway-font{
     font-family: "Raleway", sans-serif;
 }
@@ -52,9 +63,13 @@ body{
     height: 963px;
     background-color: #ffffff;
     position: relative;
+    border: 1px solid transparent;
 }
 
 .iphone-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 765px;
     min-height: 166px;
     margin: 0 auto;
@@ -82,6 +97,7 @@ body{
     width: 241px;
     min-height: 36px;
     margin: 0 auto;
+    margin-top: 14px;
 }
 .choose-iphone{
     font-size: 20px;
@@ -115,5 +131,50 @@ body{
     background-size: cover;
     position: absolute;
     top: -96.41px;
+}
+.text-in-rotation{
+    width: 941px;
+    min-height: 387px;
+    margin: 91px 165px 146.6px 155px;
+}
 
+.first-box{
+    width: 811px;
+    min-height: 166px;
+    margin: 0 auto;
+}
+
+.first-text{
+    color:#ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.second-box{
+    width: 874px;
+    min-height: 85px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.second-text{
+    color: #F5F5F5;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 56.66px;
+    text-align: center;
+}
+.third-box{
+    width: 941px;
+    min-height: 88px;
+    margin: 0 auto;
+}
+.third-text{
+    color: #7A7A7A;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
 }
