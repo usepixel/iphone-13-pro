@@ -130,7 +130,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: -96.41px;
+    bottom: 96.41px;
 }
 .text-in-rotation{
     width: 941px;
@@ -177,4 +177,21 @@ body{
     font-size: 24px;
     line-height: 30px;
     text-align: center;
+}
+
+.wrapper-select-iphone{
+    width: 100%;
+    min-height: 959px;
+    background-color: #FFFFFF;
+}
+.select-iphone{
+    width: 727px;
+    min-height: 59px;
+    color: #292929;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 78px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 38px;
 }
