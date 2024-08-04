@@ -103,7 +103,6 @@ body{
     margin: 0 auto;
     margin-top: 14px;
     text-align: center;
-    position: relative;
 }
 .choose-iphone{
     font-size: 20px;
@@ -111,18 +110,19 @@ body{
     font-weight: 500;
     text-decoration: none;
     color: #262525;
+    position: relative;
 }
 .choose-iphone:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-.choose-iphone-box::after{
+.choose-iphone::after{
     content: "";
     width: 30px;
     height: 30px;
     position: absolute;
-    margin: 0 auto;
-    margin-top: 6px;
+    left: 45%;
+    top: 100%;
     background-image: url("../resources/arrow.png");
     background-repeat: no-repeat;
     background-size: cover;
