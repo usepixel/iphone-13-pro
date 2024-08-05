@@ -103,26 +103,33 @@ body{
     margin: 0 auto;
     margin-top: 14px;
     text-align: center;
+    position: relative;
 }
 .choose-iphone{
+    display: block;
     font-size: 20px;
     line-height: 31.48px;
     font-weight: 500;
     text-decoration: none;
     color: #262525;
-    position: relative;
 }
 .choose-iphone:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-.choose-iphone::after{
+a.choose-iphone{
+    display: block;
+}
+.choose-iphone-box::after{
+    display: block;
     content: "";
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 45%;
+    left: 50%;
+    transform: translateX(-50%);
     top: 100%;
+    margin-top: 6px;
     background-image: url("../resources/arrow.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,12 +220,20 @@ body{
 }
 .wrapper-box{
     display: flex;
-    justify-content: space-between;
-    width: 1200px;
+    justify-content: center;
+    width: 100%;
     min-height: 655px;
     margin: 0 auto;
     margin-top: 57px;
     position: relative;
+}
+.items-wrapper{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-left, .arrow-right{
+    margin-top: 10%;
 }
 .wrapper-about{
     width: 384px;
@@ -272,21 +287,7 @@ body{
     line-height: 24.38px;
     text-align: center;
 }
-.wrapper-box::before{
-    content: "";
-    background-image: url("../resources/arrow-left.png");
+.arrow-left, .arrow-right{
     width: 144px;
     height: 144px;
-    position: absolute;
-    top: 30%;
-    left: -150px;
-}
-.wrapper-box::after{
-    content: "";
-    background-image: url("../resources/arrow-right.png");
-    width: 144px;
-    height: 144px;
-    position: absolute;
-    top: 30%;
-    left: 1200px;
 }
