@@ -356,6 +356,9 @@ a.choose-iphone{
 .input-sub{
     width: 419px;
     height: 145px;
+    position: absolute;
+    left: 804px;
+    top: 158.5px;
 }
 .sub-text{
     width: 419px;
@@ -364,7 +367,49 @@ a.choose-iphone{
     font-weight: 400;
     line-height: 24.38px;
     color: #727272;
-    position: absolute;
-    left: 804px;
-    top: 158.5px;
+}
+.sub-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 410px;
+    height: 60px;
+    border-radius: 32px;
+    border: 1.5px solid #C8C8C8;
+    margin-top: 32px;
+    overflow: hidden;
+    padding-right: 8px;
+}
+.email{
+    display: block;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 18px;
+}
+.order{
+    display: block;
+    width: 151px;
+    height: 49px;
+    border-radius: 32px;
+    background-color: #262525;
+    border: none;
+    cursor: pointer;
+}
+.order-text{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    text-align: center;
+}
+::placeholder{
+    width: 148px;
+    min-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #545454;
+    letter-spacing: 2%;
+    line-height: 17.07px;
+    text-align: center;
 }
